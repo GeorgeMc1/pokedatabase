@@ -23,7 +23,7 @@ export const Poke = () =>{
     return(
         <PokeWrapper>
             <h1>{name}</h1>
-            <img src={poke.sprites?.other["official-artwork"].front_default}></img>
+            <img src={poke.sprites?.other["official-artwork"].front_default} alt={name}></img>
         </PokeWrapper>
     )
 }
